@@ -31,8 +31,9 @@ local rand = ( Funfacts[ math.random( 0 , #Funfacts ) ] )
 
 Map = game.GetMap()
 
-if GamemodeLoaded == "sandbox" then
-    
+if GamemodeLoaded == nil then
+    while 1 == 1 do
+		print("NO GAMEMODE LOADED! \n NO GAMEMODE LOADED! \n NO GAMEMODE LOADED! \n NO GAMEMODE LOADED! \n NO GAMEMODE LOADED! \n NO GAMEMODE LOADED! \n NO GAMEMODE LOADED! \n NO GAMEMODE LOADED! \n")
 end
 
 
